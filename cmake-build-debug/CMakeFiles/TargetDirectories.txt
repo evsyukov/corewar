@@ -1,0 +1,3 @@
+/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir

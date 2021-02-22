@@ -13,9 +13,9 @@ void	init_instr_row(t_instr_row *instr_row, char *str, size_t index)
 	instr_row->instr.set_first_arg = 0;
 	instr_row->instr.set_second_arg = 0;
 	instr_row->instr.set_third_arg = 0;
-	if (NUM_ARGS[index] == 1)
+	if (NUM_ARGS[index] >= 1)
 		instr_row->instr.set_first_arg = SET_FIRST_ARG[index];
-	if (NUM_ARGS[index] == 2)
+	if (NUM_ARGS[index] >= 2)
 		instr_row->instr.set_second_arg = SET_SECOND_ARG[index];
 	if (NUM_ARGS[index] == 3)
 		instr_row->instr.set_third_arg = SET_THIRD_ARG[index];

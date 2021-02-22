@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/smanta/School21/CoreWar/corewar/libft/ft_putstr.c
+libft.h
+/home/smanta/School21/CoreWar/corewar/libft/libft.h
+
+/home/smanta/School21/CoreWar/corewar/libft/libft.h
+unistd.h
+-
+string.h
+-
+stdlib.h
+-
+

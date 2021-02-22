@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="corewar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/smanta/School21/CoreWar/corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/smanta/School21/CoreWar/corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/smanta/School21/CoreWar/corewar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asm">
+				<Option output="/home/smanta/School21/CoreWar/corewar/cmake-build-debug/asm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/smanta/School21/CoreWar/corewar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 asm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asm/fast">
+				<Option output="/home/smanta/School21/CoreWar/corewar/cmake-build-debug/asm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/smanta/School21/CoreWar/corewar/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 asm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/smanta/School21/CoreWar/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/asm.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/asm.h">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/checks.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/debug.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/error_manager.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/free.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/get_next_line.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/get_next_line.h">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/hash.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/inits.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/label_handler.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft.h">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_isalpha.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_isdigit.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_memset.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_putstr.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_putstr_fd.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strchr.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strcmp.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strdel.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strdup.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strequ.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strjoin.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strlen.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strncpy.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strnew.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/libft/ft_strsub.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/op.h">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_custom.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_instr.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_tokens.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/utils.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

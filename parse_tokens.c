@@ -58,7 +58,7 @@ t_token		*parse_header(t_asm *asm_node)
 			token = handle_name(asm_node, token);
 		else if (token->type_token == COMMENT
 			&& (asm_node->set_header == 0 || asm_node->set_header == 1))
-			handle_comment(asm_node, token);
+			token = handle_comment(asm_node, token);
 		else
 			print_error_and_exit();
 	}
@@ -117,6 +117,7 @@ void		parse_code(t_asm *asm_node, t_token *token)
 		{
 			node = assign_to_table(asm_node->h_table, token->str);
 			node->value = counter_bytes;
+			token = token->next;
 		}
 		else if (token->type_token == INSTRUCTION)
 			token = handle_instr_row(asm_node, token);
