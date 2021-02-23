@@ -113,12 +113,12 @@ CMakeFiles/asm.dir/parse.c.o: ../libft/libft.h
 CMakeFiles/asm.dir/parse.c.o: ../op.h
 CMakeFiles/asm.dir/parse.c.o: ../parse.c
 
-CMakeFiles/asm.dir/parse_custom.c.o: ../asm.h
-CMakeFiles/asm.dir/parse_custom.c.o: ../get_next_line.h
-CMakeFiles/asm.dir/parse_custom.c.o: ../libft.h
-CMakeFiles/asm.dir/parse_custom.c.o: ../libft/libft.h
-CMakeFiles/asm.dir/parse_custom.c.o: ../op.h
-CMakeFiles/asm.dir/parse_custom.c.o: ../parse_custom.c
+CMakeFiles/asm.dir/parse_args.c.o: ../asm.h
+CMakeFiles/asm.dir/parse_args.c.o: ../get_next_line.h
+CMakeFiles/asm.dir/parse_args.c.o: ../libft.h
+CMakeFiles/asm.dir/parse_args.c.o: ../libft/libft.h
+CMakeFiles/asm.dir/parse_args.c.o: ../op.h
+CMakeFiles/asm.dir/parse_args.c.o: ../parse_args.c
 
 CMakeFiles/asm.dir/parse_instr.c.o: ../asm.h
 CMakeFiles/asm.dir/parse_instr.c.o: ../get_next_line.h
@@ -126,6 +126,13 @@ CMakeFiles/asm.dir/parse_instr.c.o: ../libft.h
 CMakeFiles/asm.dir/parse_instr.c.o: ../libft/libft.h
 CMakeFiles/asm.dir/parse_instr.c.o: ../op.h
 CMakeFiles/asm.dir/parse_instr.c.o: ../parse_instr.c
+
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../asm.h
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../get_next_line.h
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../libft.h
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../libft/libft.h
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../op.h
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../parse_instr_list.c
 
 CMakeFiles/asm.dir/parse_tokens.c.o: ../asm.h
 CMakeFiles/asm.dir/parse_tokens.c.o: ../get_next_line.h

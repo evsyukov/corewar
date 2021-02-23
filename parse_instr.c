@@ -66,8 +66,7 @@ t_token		*parse_instr_row(t_instr_row *instr_row, t_token *token)
 {
 	if (!is_valid_instr_row(instr_row, token))
 		print_error_and_exit();
-	while (token->type_token != NEW_LINE)
-		token = token->next;
-	// TO DO
+	token = token->next;
+	token = parse_arg_list(instr_row, token);
 	return (token);
 }

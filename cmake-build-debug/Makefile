@@ -818,32 +818,32 @@ parse.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse.c.s
 .PHONY : parse.c.s
 
-parse_custom.o: parse_custom.c.o
+parse_args.o: parse_args.c.o
 
-.PHONY : parse_custom.o
+.PHONY : parse_args.o
 
 # target to build an object file
-parse_custom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_custom.c.o
-.PHONY : parse_custom.c.o
+parse_args.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_args.c.o
+.PHONY : parse_args.c.o
 
-parse_custom.i: parse_custom.c.i
+parse_args.i: parse_args.c.i
 
-.PHONY : parse_custom.i
+.PHONY : parse_args.i
 
 # target to preprocess a source file
-parse_custom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_custom.c.i
-.PHONY : parse_custom.c.i
+parse_args.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_args.c.i
+.PHONY : parse_args.c.i
 
-parse_custom.s: parse_custom.c.s
+parse_args.s: parse_args.c.s
 
-.PHONY : parse_custom.s
+.PHONY : parse_args.s
 
 # target to generate assembly for a file
-parse_custom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_custom.c.s
-.PHONY : parse_custom.c.s
+parse_args.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_args.c.s
+.PHONY : parse_args.c.s
 
 parse_instr.o: parse_instr.c.o
 
@@ -871,6 +871,33 @@ parse_instr.s: parse_instr.c.s
 parse_instr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_instr.c.s
 .PHONY : parse_instr.c.s
+
+parse_instr_list.o: parse_instr_list.c.o
+
+.PHONY : parse_instr_list.o
+
+# target to build an object file
+parse_instr_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_instr_list.c.o
+.PHONY : parse_instr_list.c.o
+
+parse_instr_list.i: parse_instr_list.c.i
+
+.PHONY : parse_instr_list.i
+
+# target to preprocess a source file
+parse_instr_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_instr_list.c.i
+.PHONY : parse_instr_list.c.i
+
+parse_instr_list.s: parse_instr_list.c.s
+
+.PHONY : parse_instr_list.s
+
+# target to generate assembly for a file
+parse_instr_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/parse_instr_list.c.s
+.PHONY : parse_instr_list.c.s
 
 parse_tokens.o: parse_tokens.c.o
 
@@ -1010,12 +1037,15 @@ help:
 	@echo "... parse.o"
 	@echo "... parse.i"
 	@echo "... parse.s"
-	@echo "... parse_custom.o"
-	@echo "... parse_custom.i"
-	@echo "... parse_custom.s"
+	@echo "... parse_args.o"
+	@echo "... parse_args.i"
+	@echo "... parse_args.s"
 	@echo "... parse_instr.o"
 	@echo "... parse_instr.i"
 	@echo "... parse_instr.s"
+	@echo "... parse_instr_list.o"
+	@echo "... parse_instr_list.i"
+	@echo "... parse_instr_list.s"
 	@echo "... parse_tokens.o"
 	@echo "... parse_tokens.i"
 	@echo "... parse_tokens.s"

@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/smanta/School21/CoreWar/corewar/asm.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+stdio.h
+-
+
 /home/smanta/School21/CoreWar/corewar/asm.h
 libft.h
 /home/smanta/School21/CoreWar/corewar/libft.h
@@ -13,6 +19,22 @@ get_next_line.h
 /home/smanta/School21/CoreWar/corewar/get_next_line.h
 op.h
 /home/smanta/School21/CoreWar/corewar/op.h
+
+/home/smanta/School21/CoreWar/corewar/checks.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/debug.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/error_manager.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/free.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
 
 /home/smanta/School21/CoreWar/corewar/get_next_line.h
 stdlib.h
@@ -28,6 +50,18 @@ unistd.h
 libft/libft.h
 /home/smanta/School21/CoreWar/corewar/libft/libft.h
 
+/home/smanta/School21/CoreWar/corewar/hash.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/inits.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/label_handler.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
 /home/smanta/School21/CoreWar/corewar/libft.h
 unistd.h
 -
@@ -46,7 +80,27 @@ stdlib.h
 
 /home/smanta/School21/CoreWar/corewar/op.h
 
+/home/smanta/School21/CoreWar/corewar/parse.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/parse_args.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
 /home/smanta/School21/CoreWar/corewar/parse_instr.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/parse_instr_list.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/parse_tokens.c
+asm.h
+/home/smanta/School21/CoreWar/corewar/asm.h
+
+/home/smanta/School21/CoreWar/corewar/utils.c
 asm.h
 /home/smanta/School21/CoreWar/corewar/asm.h
 

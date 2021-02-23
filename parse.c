@@ -2,7 +2,7 @@
 
 static void			tokens_add_tokens(t_token_list *token_list, t_token *token)
 {
-	if (token == NULL)
+	if (token_list == NULL || token == NULL)
 		return;
 	if (token_list->end == NULL)
 	{

@@ -17,6 +17,7 @@ void	do_main(char *file_name)
 	// DEBUG
 
 	parse_tokens(&asm_node);
+	parse_instr_list(&asm_node);
 }
 
 int		main(int argc, char **argv)

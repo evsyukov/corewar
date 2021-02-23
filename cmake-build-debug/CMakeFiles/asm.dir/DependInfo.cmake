@@ -29,8 +29,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/smanta/School21/CoreWar/corewar/libft/ft_strnew.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/libft/ft_strnew.c.o"
   "/home/smanta/School21/CoreWar/corewar/libft/ft_strsub.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/libft/ft_strsub.c.o"
   "/home/smanta/School21/CoreWar/corewar/parse.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/parse.c.o"
-  "/home/smanta/School21/CoreWar/corewar/parse_custom.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/parse_custom.c.o"
+  "/home/smanta/School21/CoreWar/corewar/parse_args.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/parse_args.c.o"
   "/home/smanta/School21/CoreWar/corewar/parse_instr.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/parse_instr.c.o"
+  "/home/smanta/School21/CoreWar/corewar/parse_instr_list.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/parse_instr_list.c.o"
   "/home/smanta/School21/CoreWar/corewar/parse_tokens.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/parse_tokens.c.o"
   "/home/smanta/School21/CoreWar/corewar/utils.c" "/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles/asm.dir/utils.c.o"
   )

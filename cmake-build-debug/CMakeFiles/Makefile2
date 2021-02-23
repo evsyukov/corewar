@@ -94,12 +94,12 @@ clean: CMakeFiles/asm.dir/clean
 CMakeFiles/asm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/asm.dir/build.make CMakeFiles/asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target asm"
 .PHONY : CMakeFiles/asm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/asm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/asm.dir/rule

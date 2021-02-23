@@ -155,22 +155,9 @@ CMakeFiles/asm.dir/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/parse.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/smanta/School21/CoreWar/corewar/parse.c -o CMakeFiles/asm.dir/parse.c.s
 
-CMakeFiles/asm.dir/parse_custom.c.o: CMakeFiles/asm.dir/flags.make
-CMakeFiles/asm.dir/parse_custom.c.o: ../parse_custom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/asm.dir/parse_custom.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/parse_custom.c.o   -c /home/smanta/School21/CoreWar/corewar/parse_custom.c
-
-CMakeFiles/asm.dir/parse_custom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/asm.dir/parse_custom.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/smanta/School21/CoreWar/corewar/parse_custom.c > CMakeFiles/asm.dir/parse_custom.c.i
-
-CMakeFiles/asm.dir/parse_custom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/parse_custom.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/smanta/School21/CoreWar/corewar/parse_custom.c -o CMakeFiles/asm.dir/parse_custom.c.s
-
 CMakeFiles/asm.dir/libft/ft_strlen.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/asm.dir/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/asm.dir/libft/ft_strlen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strlen.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strlen.c
 
 CMakeFiles/asm.dir/libft/ft_strlen.c.i: cmake_force
@@ -183,7 +170,7 @@ CMakeFiles/asm.dir/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_putstr.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/asm.dir/libft/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/asm.dir/libft/ft_putstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_putstr.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_putstr.c
 
 CMakeFiles/asm.dir/libft/ft_putstr.c.i: cmake_force
@@ -196,7 +183,7 @@ CMakeFiles/asm.dir/libft/ft_putstr.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strsub.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/asm.dir/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/asm.dir/libft/ft_strsub.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strsub.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strsub.c
 
 CMakeFiles/asm.dir/libft/ft_strsub.c.i: cmake_force
@@ -209,7 +196,7 @@ CMakeFiles/asm.dir/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strdup.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/asm.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/asm.dir/libft/ft_strdup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strdup.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strdup.c
 
 CMakeFiles/asm.dir/libft/ft_strdup.c.i: cmake_force
@@ -222,7 +209,7 @@ CMakeFiles/asm.dir/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strdel.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/asm.dir/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/asm.dir/libft/ft_strdel.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strdel.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strdel.c
 
 CMakeFiles/asm.dir/libft/ft_strdel.c.i: cmake_force
@@ -235,7 +222,7 @@ CMakeFiles/asm.dir/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strnew.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/asm.dir/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/asm.dir/libft/ft_strnew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strnew.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strnew.c
 
 CMakeFiles/asm.dir/libft/ft_strnew.c.i: cmake_force
@@ -248,7 +235,7 @@ CMakeFiles/asm.dir/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strjoin.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/asm.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/asm.dir/libft/ft_strjoin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strjoin.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strjoin.c
 
 CMakeFiles/asm.dir/libft/ft_strjoin.c.i: cmake_force
@@ -261,7 +248,7 @@ CMakeFiles/asm.dir/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strchr.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/asm.dir/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/asm.dir/libft/ft_strchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strchr.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strchr.c
 
 CMakeFiles/asm.dir/libft/ft_strchr.c.i: cmake_force
@@ -274,7 +261,7 @@ CMakeFiles/asm.dir/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_putstr_fd.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/asm.dir/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/asm.dir/libft/ft_putstr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_putstr_fd.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_putstr_fd.c
 
 CMakeFiles/asm.dir/libft/ft_putstr_fd.c.i: cmake_force
@@ -287,7 +274,7 @@ CMakeFiles/asm.dir/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strcmp.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/asm.dir/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/asm.dir/libft/ft_strcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strcmp.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strcmp.c
 
 CMakeFiles/asm.dir/libft/ft_strcmp.c.i: cmake_force
@@ -300,7 +287,7 @@ CMakeFiles/asm.dir/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_isdigit.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/asm.dir/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/asm.dir/libft/ft_isdigit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_isdigit.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_isdigit.c
 
 CMakeFiles/asm.dir/libft/ft_isdigit.c.i: cmake_force
@@ -313,7 +300,7 @@ CMakeFiles/asm.dir/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_isalpha.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/asm.dir/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/asm.dir/libft/ft_isalpha.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_isalpha.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_isalpha.c
 
 CMakeFiles/asm.dir/libft/ft_isalpha.c.i: cmake_force
@@ -326,7 +313,7 @@ CMakeFiles/asm.dir/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_memset.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/asm.dir/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/asm.dir/libft/ft_memset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_memset.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_memset.c
 
 CMakeFiles/asm.dir/libft/ft_memset.c.i: cmake_force
@@ -339,7 +326,7 @@ CMakeFiles/asm.dir/libft/ft_memset.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strncpy.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/asm.dir/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/asm.dir/libft/ft_strncpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strncpy.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strncpy.c
 
 CMakeFiles/asm.dir/libft/ft_strncpy.c.i: cmake_force
@@ -352,7 +339,7 @@ CMakeFiles/asm.dir/libft/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/asm.dir/libft/ft_strequ.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/asm.dir/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/asm.dir/libft/ft_strequ.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/libft/ft_strequ.c.o   -c /home/smanta/School21/CoreWar/corewar/libft/ft_strequ.c
 
 CMakeFiles/asm.dir/libft/ft_strequ.c.i: cmake_force
@@ -365,7 +352,7 @@ CMakeFiles/asm.dir/libft/ft_strequ.c.s: cmake_force
 
 CMakeFiles/asm.dir/label_handler.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/label_handler.c.o: ../label_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/asm.dir/label_handler.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/asm.dir/label_handler.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/label_handler.c.o   -c /home/smanta/School21/CoreWar/corewar/label_handler.c
 
 CMakeFiles/asm.dir/label_handler.c.i: cmake_force
@@ -378,7 +365,7 @@ CMakeFiles/asm.dir/label_handler.c.s: cmake_force
 
 CMakeFiles/asm.dir/utils.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/asm.dir/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/asm.dir/utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/utils.c.o   -c /home/smanta/School21/CoreWar/corewar/utils.c
 
 CMakeFiles/asm.dir/utils.c.i: cmake_force
@@ -391,7 +378,7 @@ CMakeFiles/asm.dir/utils.c.s: cmake_force
 
 CMakeFiles/asm.dir/parse_tokens.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/parse_tokens.c.o: ../parse_tokens.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/asm.dir/parse_tokens.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/asm.dir/parse_tokens.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/parse_tokens.c.o   -c /home/smanta/School21/CoreWar/corewar/parse_tokens.c
 
 CMakeFiles/asm.dir/parse_tokens.c.i: cmake_force
@@ -404,7 +391,7 @@ CMakeFiles/asm.dir/parse_tokens.c.s: cmake_force
 
 CMakeFiles/asm.dir/free.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/free.c.o: ../free.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/asm.dir/free.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/asm.dir/free.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/free.c.o   -c /home/smanta/School21/CoreWar/corewar/free.c
 
 CMakeFiles/asm.dir/free.c.i: cmake_force
@@ -417,7 +404,7 @@ CMakeFiles/asm.dir/free.c.s: cmake_force
 
 CMakeFiles/asm.dir/debug.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/debug.c.o: ../debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/asm.dir/debug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/asm.dir/debug.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/debug.c.o   -c /home/smanta/School21/CoreWar/corewar/debug.c
 
 CMakeFiles/asm.dir/debug.c.i: cmake_force
@@ -430,7 +417,7 @@ CMakeFiles/asm.dir/debug.c.s: cmake_force
 
 CMakeFiles/asm.dir/hash.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/hash.c.o: ../hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/asm.dir/hash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/asm.dir/hash.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/hash.c.o   -c /home/smanta/School21/CoreWar/corewar/hash.c
 
 CMakeFiles/asm.dir/hash.c.i: cmake_force
@@ -443,7 +430,7 @@ CMakeFiles/asm.dir/hash.c.s: cmake_force
 
 CMakeFiles/asm.dir/parse_instr.c.o: CMakeFiles/asm.dir/flags.make
 CMakeFiles/asm.dir/parse_instr.c.o: ../parse_instr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/asm.dir/parse_instr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/asm.dir/parse_instr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/parse_instr.c.o   -c /home/smanta/School21/CoreWar/corewar/parse_instr.c
 
 CMakeFiles/asm.dir/parse_instr.c.i: cmake_force
@@ -454,6 +441,32 @@ CMakeFiles/asm.dir/parse_instr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/parse_instr.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/smanta/School21/CoreWar/corewar/parse_instr.c -o CMakeFiles/asm.dir/parse_instr.c.s
 
+CMakeFiles/asm.dir/parse_args.c.o: CMakeFiles/asm.dir/flags.make
+CMakeFiles/asm.dir/parse_args.c.o: ../parse_args.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/asm.dir/parse_args.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/parse_args.c.o   -c /home/smanta/School21/CoreWar/corewar/parse_args.c
+
+CMakeFiles/asm.dir/parse_args.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/asm.dir/parse_args.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/smanta/School21/CoreWar/corewar/parse_args.c > CMakeFiles/asm.dir/parse_args.c.i
+
+CMakeFiles/asm.dir/parse_args.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/parse_args.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/smanta/School21/CoreWar/corewar/parse_args.c -o CMakeFiles/asm.dir/parse_args.c.s
+
+CMakeFiles/asm.dir/parse_instr_list.c.o: CMakeFiles/asm.dir/flags.make
+CMakeFiles/asm.dir/parse_instr_list.c.o: ../parse_instr_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/asm.dir/parse_instr_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/asm.dir/parse_instr_list.c.o   -c /home/smanta/School21/CoreWar/corewar/parse_instr_list.c
+
+CMakeFiles/asm.dir/parse_instr_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/asm.dir/parse_instr_list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/smanta/School21/CoreWar/corewar/parse_instr_list.c > CMakeFiles/asm.dir/parse_instr_list.c.i
+
+CMakeFiles/asm.dir/parse_instr_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/asm.dir/parse_instr_list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/smanta/School21/CoreWar/corewar/parse_instr_list.c -o CMakeFiles/asm.dir/parse_instr_list.c.s
+
 # Object files for target asm
 asm_OBJECTS = \
 "CMakeFiles/asm.dir/asm.c.o" \
@@ -462,7 +475,6 @@ asm_OBJECTS = \
 "CMakeFiles/asm.dir/get_next_line.c.o" \
 "CMakeFiles/asm.dir/inits.c.o" \
 "CMakeFiles/asm.dir/parse.c.o" \
-"CMakeFiles/asm.dir/parse_custom.c.o" \
 "CMakeFiles/asm.dir/libft/ft_strlen.c.o" \
 "CMakeFiles/asm.dir/libft/ft_putstr.c.o" \
 "CMakeFiles/asm.dir/libft/ft_strsub.c.o" \
@@ -484,7 +496,9 @@ asm_OBJECTS = \
 "CMakeFiles/asm.dir/free.c.o" \
 "CMakeFiles/asm.dir/debug.c.o" \
 "CMakeFiles/asm.dir/hash.c.o" \
-"CMakeFiles/asm.dir/parse_instr.c.o"
+"CMakeFiles/asm.dir/parse_instr.c.o" \
+"CMakeFiles/asm.dir/parse_args.c.o" \
+"CMakeFiles/asm.dir/parse_instr_list.c.o"
 
 # External object files for target asm
 asm_EXTERNAL_OBJECTS =
@@ -495,7 +509,6 @@ asm: CMakeFiles/asm.dir/error_manager.c.o
 asm: CMakeFiles/asm.dir/get_next_line.c.o
 asm: CMakeFiles/asm.dir/inits.c.o
 asm: CMakeFiles/asm.dir/parse.c.o
-asm: CMakeFiles/asm.dir/parse_custom.c.o
 asm: CMakeFiles/asm.dir/libft/ft_strlen.c.o
 asm: CMakeFiles/asm.dir/libft/ft_putstr.c.o
 asm: CMakeFiles/asm.dir/libft/ft_strsub.c.o
@@ -518,9 +531,11 @@ asm: CMakeFiles/asm.dir/free.c.o
 asm: CMakeFiles/asm.dir/debug.c.o
 asm: CMakeFiles/asm.dir/hash.c.o
 asm: CMakeFiles/asm.dir/parse_instr.c.o
+asm: CMakeFiles/asm.dir/parse_args.c.o
+asm: CMakeFiles/asm.dir/parse_instr_list.c.o
 asm: CMakeFiles/asm.dir/build.make
 asm: CMakeFiles/asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smanta/School21/CoreWar/corewar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable asm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

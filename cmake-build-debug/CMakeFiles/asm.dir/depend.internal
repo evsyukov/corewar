@@ -113,13 +113,13 @@ CMakeFiles/asm.dir/parse.c.o
  /home/smanta/School21/CoreWar/corewar/libft/libft.h
  /home/smanta/School21/CoreWar/corewar/op.h
  /home/smanta/School21/CoreWar/corewar/parse.c
-CMakeFiles/asm.dir/parse_custom.c.o
+CMakeFiles/asm.dir/parse_args.c.o
  /home/smanta/School21/CoreWar/corewar/asm.h
  /home/smanta/School21/CoreWar/corewar/get_next_line.h
  /home/smanta/School21/CoreWar/corewar/libft.h
  /home/smanta/School21/CoreWar/corewar/libft/libft.h
  /home/smanta/School21/CoreWar/corewar/op.h
- /home/smanta/School21/CoreWar/corewar/parse_custom.c
+ /home/smanta/School21/CoreWar/corewar/parse_args.c
 CMakeFiles/asm.dir/parse_instr.c.o
  /home/smanta/School21/CoreWar/corewar/asm.h
  /home/smanta/School21/CoreWar/corewar/get_next_line.h
@@ -127,6 +127,13 @@ CMakeFiles/asm.dir/parse_instr.c.o
  /home/smanta/School21/CoreWar/corewar/libft/libft.h
  /home/smanta/School21/CoreWar/corewar/op.h
  /home/smanta/School21/CoreWar/corewar/parse_instr.c
+CMakeFiles/asm.dir/parse_instr_list.c.o
+ /home/smanta/School21/CoreWar/corewar/asm.h
+ /home/smanta/School21/CoreWar/corewar/get_next_line.h
+ /home/smanta/School21/CoreWar/corewar/libft.h
+ /home/smanta/School21/CoreWar/corewar/libft/libft.h
+ /home/smanta/School21/CoreWar/corewar/op.h
+ /home/smanta/School21/CoreWar/corewar/parse_instr_list.c
 CMakeFiles/asm.dir/parse_tokens.c.o
  /home/smanta/School21/CoreWar/corewar/asm.h
  /home/smanta/School21/CoreWar/corewar/get_next_line.h

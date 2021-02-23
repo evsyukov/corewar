@@ -70,6 +70,7 @@ typedef struct	s_arg_list
 typedef struct	s_instr
 {
 	char		*name_instr;
+	size_t 		code_instr;
 	size_t		num_args;
 	size_t		set_first_arg;
 	size_t		set_second_arg;
@@ -109,6 +110,7 @@ typedef struct	s_asm
 	t_token_list	token_list;
 	t_hash			**h_table; // Указатель на хэш таблицу
 	t_instr_list	instr_list;
+	size_t 			*bytes;
 }				t_asm;
 
 /*
@@ -162,6 +164,12 @@ void			init_asm(t_asm *asm_node);
 t_token			*parse_instr_row(t_instr_row *instr_row, t_token *token);
 
 /*
+** -------------------------- parse_instr_list.c ------------------------------
+*/
+
+void			parse_instr_list(t_asm *asm_node);
+
+/*
 ** -------------------------- label_handler.c ---------------------------------
 */
 
@@ -174,13 +182,10 @@ void			handler_label();
 void			parse(t_token_list *token_list, char *file_name);
 
 /*
-** -------------------------- parse_custom.c ----------------------------------
+** -------------------------- parse_args.c ------------------------------------
 */
 
-//void			parse_name_cmd_string(t_asm *asm_node, char *str_token);
-//void			parse_comment_cmd_string(t_asm *asm_node, char *str_token);
-//void			parse_instr(t_asm *asm_node, char *str_token);
-//void			parse_arg(t_asm *asm_node, char *str_token);
+t_token			*parse_arg_list(t_instr_row *instr_row, t_token *token);
 
 /*
 ** -------------------------- parse_tokens.c ----------------------------------

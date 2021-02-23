@@ -165,10 +165,13 @@
 		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse.c">
 			<Option target="asm"/>
 		</Unit>
-		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_custom.c">
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_args.c">
 			<Option target="asm"/>
 		</Unit>
 		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_instr.c">
+			<Option target="asm"/>
+		</Unit>
+		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_instr_list.c">
 			<Option target="asm"/>
 		</Unit>
 		<Unit filename="/home/smanta/School21/CoreWar/corewar/parse_tokens.c">
