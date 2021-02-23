@@ -23,7 +23,7 @@ void	parse_instr_list(t_asm *asm_node)
 	instr_row = asm_node->instr_list.begin;
 	while (instr_row != NULL)
 	{
-		
+		// TO DO
 		instr_row = instr_row->next;
 	}
 }

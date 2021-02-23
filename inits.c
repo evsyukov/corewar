@@ -55,4 +55,6 @@ void	init_asm(t_asm *asm_node)
 	asm_node->instr_list.num_bytes = 0;
 	asm_node->instr_list.begin = NULL;
 	asm_node->instr_list.end = NULL;
+
+	asm_node->bytes = NULL;
 }
