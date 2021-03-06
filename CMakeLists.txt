@@ -21,4 +21,4 @@ add_executable(asm asm.c asm.h checks.c error_manager.c
         libft/ft_strncpy.c
         libft/ft_strequ.c
         label_handler.c utils.c parse_tokens.c free.c debug.c hash.c
-        parse_instr.c parse_args.c parse_instr_list.c)
+        parse_instr.c parse_args.c parse_instr_list.c len_arr.c)

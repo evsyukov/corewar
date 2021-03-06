@@ -6,7 +6,8 @@ void 	init_token_list(t_token_list *token_list)
 	token_list->end = NULL;
 }
 
-void	init_instr_row(t_instr_row *instr_row, char *str, size_t index)
+void	init_instr_row(t_instr_row *instr_row, char *str,
+					size_t index, size_t counter_byte)
 {
 	instr_row->instr.name_instr = str;
 	instr_row->instr.code_instr = index + 1;
@@ -29,6 +30,7 @@ void	init_instr_row(t_instr_row *instr_row, char *str, size_t index)
 	instr_row->arg_list.end = NULL;
 
 	instr_row->num_bytes = 0;
+	instr_row->num_begin_byte = counter_byte;
 //	instr_row->num_bytes = 1 + instr_row->instr.is_code_types_exist
 //		+ instr_row->arg_list.num_bytes;
 	instr_row->next = NULL;
@@ -56,5 +58,8 @@ void	init_asm(t_asm *asm_node)
 	asm_node->instr_list.begin = NULL;
 	asm_node->instr_list.end = NULL;
 
-	asm_node->bytes = NULL;
+	asm_node->arr = NULL;
+	asm_node->index_arr = 0;
+	asm_node->len_arr = 0;
+	asm_node->counter_bytes = 0;
 }

@@ -71,13 +71,13 @@ size_t		get_index(char *str)
 	return (-1);
 }
 
-t_instr_row	*create_instr_row(char *str, size_t index)
+t_instr_row	*create_instr_row(char *str, size_t index, size_t counter_byte)
 {
 	t_instr_row	*instr_row;
 
 	if ((instr_row = (t_instr_row *)malloc(sizeof(t_instr_row))) == NULL)
 		print_error_and_exit();
-	init_instr_row(instr_row, str, index);
+	init_instr_row(instr_row, str, index, counter_byte);
 	return (instr_row);
 }
 
@@ -110,28 +110,29 @@ t_token		*handle_instr_row(t_asm *asm_node, t_token *token)
 
 	if ((index = get_index(token->str)) == -1)
 		print_error_and_exit();
-	instr_row = create_instr_row(token->str, index);
-	token = parse_instr_row(instr_row, token); // файл parse_tokens.c
+	instr_row = create_instr_row(token->str, index, asm_node->counter_bytes);
+	token = parse_instr_row(instr_row, token); // файл parse_instr.c
+	asm_node->counter_bytes += instr_row->num_bytes;
+	if (!is_size_champ_code_valid(asm_node->counter_bytes))
+		print_error_and_exit();
 	instrs_add(&(asm_node->instr_list), instr_row);
 	return (token);
 }
 
-t_token		*parse_code(t_asm *asm_node, t_token *token)
+void		parse_code(t_asm *asm_node, t_token *token)
 {
 	t_hash	*node;
-	size_t	counter_bytes;
 
 	if (asm_node->token_list.end->type_token != END)
 		print_error_and_exit();
 	while (token->type_token == NEW_LINE)
 		token = token->next;
-	counter_bytes = 0;
 	while (token->type_token != END)
 	{
 		if (token->type_token == LABEL)
 		{
 			node = assign_to_table(asm_node->h_table, token->str);
-			node->value = counter_bytes;
+			node->value = asm_node->instr_list.num_bytes;
 			token = token->next;
 		}
 		if (token->type_token == INSTRUCTION)
@@ -141,7 +142,6 @@ t_token		*parse_code(t_asm *asm_node, t_token *token)
 		while (token->type_token == NEW_LINE)
 			token = token->next;
 	}
-	return (token);
 }
 
 void		parse_tokens(t_asm *asm_node)
@@ -149,5 +149,5 @@ void		parse_tokens(t_asm *asm_node)
 	t_token	*token;
 
 	token = parse_header(asm_node);
-	token = parse_code(asm_node, token);
+	parse_code(asm_node, token);
 }

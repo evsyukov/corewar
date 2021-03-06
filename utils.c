@@ -1,5 +1,23 @@
 #include "asm.h"
 
+size_t		get_num_bytes_from_arg(t_instr_row *instr_row,
+									 t_type_token	type_token)
+{
+	size_t	num_bytes;
+	size_t	index_hard_table;
+
+	num_bytes = 0;
+	index_hard_table = instr_row->instr.code_instr - 1;
+	if (type_token == REGISTER)
+		num_bytes = 1;
+	else if (type_token == DIRECT || type_token == DIRECT_LABEL)
+		num_bytes = T_DIR_SIZES[index_hard_table];
+	else if (type_token == INDIRECT || type_token == INDIRECT_LABEL)
+		num_bytes = IND_SIZE;
+	else
+		print_error_and_exit();
+	return (num_bytes);
+}
 
 int			is_num_from_ind(const char *str, size_t	index)
 {

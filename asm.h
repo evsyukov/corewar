@@ -46,7 +46,7 @@ typedef enum
 typedef	struct	s_hash
 {
   char			*node_name;
-  size_t		value;
+  size_t		value; // Кол-во байт от начала блока с кодом
   struct s_hash	*next; // Тут хранятся коллизии хэш таблицы (Список)
   struct s_hash	*prev;
 }				t_hash;
@@ -55,6 +55,8 @@ typedef struct	s_token
 {
 	char			*str;
 	t_type_token	type_token;
+//	size_t 			index_byte; // индекс с какого байта начинается токен
+//	size_t 			index_hard_tables; // индекс токена в "жестких таблицах"
 	struct s_token	*next;
 	struct s_token	*prev;
 }				t_token;
@@ -84,6 +86,7 @@ typedef struct	s_instr_row
 	t_instr				instr;
 	t_arg_list			arg_list;
 	size_t				num_bytes;
+	size_t 				num_begin_byte; // номер байта с которого начинается instr_row (от начала, от нуля)
 	struct s_instr_row	*next;
 	struct s_instr_row	*prev;
 }				t_instr_row;
@@ -102,6 +105,12 @@ typedef struct	s_token_list
   t_token	*end;
 }				t_token_list;
 
+typedef struct	s_byte
+{
+  size_t		value;
+  size_t		num_bytes;
+}				t_byte;
+
 typedef struct	s_asm
 {
 	char			*file_name_cor;
@@ -110,16 +119,26 @@ typedef struct	s_asm
 	t_token_list	token_list;
 	t_hash			**h_table; // Указатель на хэш таблицу
 	t_instr_list	instr_list;
-	size_t 			*bytes;
+	t_byte			**arr; // лист объектов типа t_byte [value, кол-во байт]
+	size_t 			len_arr;
+	size_t			index_arr; // индекс для arr
+	size_t			counter_bytes; // индекс для - с какого байта начинается текуща инструкция
 }				t_asm;
 
 /*
 ** -------------------------- check.c -----------------------------------------
 */
 
+int				is_size_champ_code_valid(size_t counter_bytes);
 int				is_whitespace(char c);
 size_t			skip_whitespaces(const char *line, size_t index);
 int				check_args(int argc, char **argv);
+
+/*
+** -------------------------- debug.c -----------------------------------------
+*/
+
+void			print_token_list(t_token_list *token_list);
 
 /*
 ** -------------------------- error_manager.c ---------------------------------
@@ -154,26 +173,21 @@ t_hash			*hash_query(t_hash **h_table, char *node_name);
 */
 
 void			init_token_list(t_token_list *token_list);
-void			init_instr_row(t_instr_row *instr_row, char *str, size_t index);
+void			init_instr_row(t_instr_row *instr_row, char *str,
+					size_t index, size_t counter_byte);
 void			init_asm(t_asm *asm_node);
-
-/*
-** -------------------------- parse_instr.c -----------------------------------
-*/
-
-t_token			*parse_instr_row(t_instr_row *instr_row, t_token *token);
-
-/*
-** -------------------------- parse_instr_list.c ------------------------------
-*/
-
-void			parse_instr_list(t_asm *asm_node);
 
 /*
 ** -------------------------- label_handler.c ---------------------------------
 */
 
 void			handler_label();
+
+/*
+** -------------------------- len_arr.c ---------------------------------------
+*/
+
+size_t			get_len_arr(t_asm *asm_node);
 
 /*
 ** -------------------------- parse.c -----------------------------------------
@@ -188,6 +202,18 @@ void			parse(t_token_list *token_list, char *file_name);
 t_token			*parse_arg_list(t_instr_row *instr_row, t_token *token);
 
 /*
+** -------------------------- parse_instr.c -----------------------------------
+*/
+
+t_token			*parse_instr_row(t_instr_row *instr_row, t_token *token);
+
+/*
+** -------------------------- parse_instr_list.c ------------------------------
+*/
+
+void			parse_instr_list(t_asm *asm_node);
+
+/*
 ** -------------------------- parse_tokens.c ----------------------------------
 */
 
@@ -196,7 +222,8 @@ void			parse_tokens(t_asm *asm_node);
 /*
 ** -------------------------- utils.c -----------------------------------------
 */
-
+size_t			get_num_bytes_from_arg(t_instr_row *instr_row,
+									 t_type_token	type_token);
 int				is_num_from_ind(const char *str, size_t	index);
 int				is_label(const char *str, size_t len);
 int				is_word_from_to(const char *str,
@@ -204,11 +231,5 @@ int				is_word_from_to(const char *str,
 int				is_instr(const char *str);
 char			*char_to_string(char c);
 char			*type_to_string(t_type_token type);
-
-/*
-** -------------------------- debug.c -----------------------------------------
-*/
-
-void			print_token_list(t_token_list *token_list);
 
 #endif
