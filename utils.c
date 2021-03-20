@@ -1,25 +1,6 @@
 #include "asm.h"
 
-size_t		get_num_bytes_from_arg(t_instr_row *instr_row,
-									 t_type_token	type_token)
-{
-	size_t	num_bytes;
-	size_t	index_hard_table;
-
-	num_bytes = 0;
-	index_hard_table = instr_row->instr.code_instr - 1;
-	if (type_token == REGISTER)
-		num_bytes = 1;
-	else if (type_token == DIRECT || type_token == DIRECT_LABEL)
-		num_bytes = T_DIR_SIZES[index_hard_table];
-	else if (type_token == INDIRECT || type_token == INDIRECT_LABEL)
-		num_bytes = IND_SIZE;
-	else
-		print_error_and_exit();
-	return (num_bytes);
-}
-
-int			is_num_from_ind(const char *str, size_t	index)
+int			is_num_from_ind(const char *str, size_t index)
 {
 	if (str[index] == '-')
 		++index;
@@ -46,7 +27,7 @@ static int	is_valid_label_char(char c)
 	return (0);
 }
 
-int 		is_label(const char *str, size_t len)
+int			is_label(const char *str, size_t len)
 {
 	size_t	index;
 
@@ -56,21 +37,6 @@ int 		is_label(const char *str, size_t len)
 	while (index < len - 1)
 	{
 		if (!is_valid_label_char(str[index]))
-			return (0);
-		++index;
-	}
-	return (1);
-}
-
-int			is_word_from_to(const char *str,
-					size_t from_inclusive, size_t to_exclusive)
-{
-	size_t index;
-
-	index = from_inclusive;
-	while (index < to_exclusive && str[index] != '\0')
-	{
-		if (!ft_isalpha(str[index]))
 			return (0);
 		++index;
 	}
@@ -102,7 +68,7 @@ char		*char_to_string(char c)
 	return (str);
 }
 
-char 		*type_to_string(t_type_token type)
+char		*type_to_string(t_type_token type)
 {
 	if (type == 0)
 		return ("UNKNOWN");
@@ -133,4 +99,24 @@ char 		*type_to_string(t_type_token type)
 	else if (type == 13)
 		return ("END");
 	return ("WRONG TYPE INPUT");
+}
+
+void		fill_value_to_hex(char *str, int32_t value,
+									size_t start, size_t size)
+{
+	size_t	shift;
+	size_t	index_str;
+	size_t	num;
+
+	shift = 0;
+	while (size != 0)
+	{
+		index_str = start + size - 1;
+		num = (value >> shift) & 0xFF;
+		if (num == 0)
+			break ;
+		str[index_str] = (uint8_t)num;
+		shift += 8;
+		--size;
+	}
 }

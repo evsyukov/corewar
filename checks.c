@@ -1,12 +1,5 @@
 #include "asm.h"
 
-int			is_size_champ_code_valid(size_t counter_bytes)
-{
-	if (counter_bytes + 1 > CHAMP_MAX_SIZE)
-		return (0);
-	return (1);
-}
-
 int			is_whitespace(char c)
 {
 	if (c == ' ' || c == '\t' || c == '\r' || c == '\v' || c == '\f')

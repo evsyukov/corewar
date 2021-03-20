@@ -9,13 +9,7 @@ static size_t	get_len_row(t_instr_row *instr_row)
 	if (instr_row->instr.is_code_types_exist == 1)
 		++len_row;
 	token = instr_row->arg_list.begin;
-	while (token != instr_row->arg_list.end->next)
-	{
-		len_row += get_num_bytes_from_arg(instr_row, token->type_token);
-		if (token->type_token == SEPARATOR)
-			token = token->next;
-		token = token->next;
-	}
+	len_row += instr_row->arg_list.num_args;
 	return (len_row);
 }
 

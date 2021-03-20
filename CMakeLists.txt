@@ -14,11 +14,17 @@ add_executable(asm asm.c asm.h checks.c error_manager.c
         libft/ft_strjoin.c
         libft/ft_strchr.c
         libft/ft_putstr_fd.c
+        libft/ft_putnbr_fd.c
+        libft/ft_putchar_fd.c
         libft/ft_strcmp.c
         libft/ft_isdigit.c
         libft/ft_isalpha.c
         libft/ft_memset.c
         libft/ft_strncpy.c
         libft/ft_strequ.c
-        label_handler.c utils.c parse_tokens.c free.c debug.c hash.c
-        parse_instr.c parse_args.c parse_instr_list.c len_arr.c)
+        libft/ft_atoi.c
+        libft/ft_memcpy.c
+        libft/ft_putnbr.c // debug
+        libft/ft_putchar.c // debug
+        utils.c parse_tokens.c free.c debug.c hash.c
+        parse_instr.c parse_args.c parse_instr_list.c len_arr.c get_bytes.c assemble.c get_final_str.c utils_2.c)

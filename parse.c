@@ -3,7 +3,7 @@
 static void			tokens_add_tokens(t_token_list *token_list, t_token *token)
 {
 	if (token_list == NULL || token == NULL)
-		return;
+		return ;
 	if (token_list->end == NULL)
 	{
 		token_list->begin = token;
@@ -11,7 +11,7 @@ static void			tokens_add_tokens(t_token_list *token_list, t_token *token)
 		while (token->next != NULL)
 			token = token->next;
 		token_list->end = token;
-		return;
+		return ;
 	}
 	token_list->end->next = token;
 	token->prev = token_list->end;
@@ -37,7 +37,7 @@ static t_token		*create_token(char *str_token, t_type_token type)
 static t_type_token	get_type_token(char *str)
 {
 	t_type_token	type;
-	size_t 			len;
+	size_t			len;
 
 	len = ft_strlen(str);
 	type = UNKNOWN;
@@ -64,7 +64,6 @@ static t_type_token	get_type_token(char *str)
 	else if (is_label(str, len))
 		type = LABEL;
 	else if (len >= 2 && str[0] == '"' && str[len - 1] == '"')
-//	&& (is_word_from_to(str, 1, len) || len == 2))
 		type = STRING;
 	return (type);
 }
@@ -73,8 +72,8 @@ void				parse_by_sep(char *str, t_token_list *tokens)
 {
 	t_type_token	type;
 	size_t			index;
-	size_t 			curr_index;
-	char 			*str_sub;
+	size_t			curr_index;
+	char			*str_sub;
 
 	index = 0;
 	curr_index = 0;
@@ -87,7 +86,8 @@ void				parse_by_sep(char *str, t_token_list *tokens)
 		tokens_add_tokens(tokens, create_token(str_sub, type));
 		if (str[curr_index] == SEPARATOR_CHAR)
 		{
-			tokens_add_tokens(tokens, create_token(char_to_string(SEPARATOR_CHAR), SEPARATOR));
+			tokens_add_tokens(tokens,
+					create_token(char_to_string(SEPARATOR_CHAR), SEPARATOR));
 			++curr_index;
 		}
 		index = curr_index;
@@ -111,7 +111,7 @@ static t_token_list	*get_token_list(const char *line, size_t *curr_index)
 	size_t			start_ind_token;
 	size_t			len_token;
 	char			*str_token;
-	t_token_list 	*token_list;
+	t_token_list	*token_list;
 
 	start_ind_token = *curr_index;
 	if ((token_list = (t_token_list *)malloc(sizeof(t_token_list))) == NULL)
@@ -142,7 +142,7 @@ static void			parse_line(t_token_list *token_list, const char *line)
 	{
 		index = skip_whitespaces(line, index);
 		if (line[index] == COMMENT_CHAR || line[index] == '\0')
-			break;
+			break ;
 		new_list = get_token_list(line, &index);
 		tokens_add_tokens(token_list, new_list->begin);
 		free(new_list);
@@ -161,7 +161,8 @@ void				parse(t_token_list *token_list, char *file_name)
 	while ((ret = get_next_line(fd, &line)))
 	{
 		parse_line(token_list, line);
-		tokens_add_tokens(token_list, create_token(ft_strdup("NEW_LINE"), NEW_LINE));
+		tokens_add_tokens(token_list,
+					create_token(ft_strdup("NEW_LINE"), NEW_LINE));
 		free(line);
 		line = NULL;
 	}

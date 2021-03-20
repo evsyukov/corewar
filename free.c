@@ -1,6 +1,6 @@
 #include "asm.h"
 
-void 	free_token(t_token *token)
+void	free_token(t_token *token)
 {
 	free(token->str);
 	free(token);

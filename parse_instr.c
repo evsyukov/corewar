@@ -3,7 +3,7 @@
 static int	is_valid_num_args(t_instr_row *instr_row, t_token *token)
 {
 	size_t	num_args;
-	int 	is_sep;
+	int		is_sep;
 
 	num_args = 0;
 	is_sep = 0;
@@ -39,7 +39,8 @@ static int	is_valid_type_args(t_instr_row *instr_row, t_token *token)
 			code = 1;
 		if (token->type_token == DIRECT || token->type_token == DIRECT_LABEL)
 			code = 2;
-		if (token->type_token == INDIRECT || token->type_token == INDIRECT_LABEL)
+		if (token->type_token == INDIRECT
+		|| token->type_token == INDIRECT_LABEL)
 			code = 4;
 		if (count == 1 && !(instr_row->instr.set_first_arg & code))
 			return (0);
@@ -67,6 +68,6 @@ t_token		*parse_instr_row(t_instr_row *instr_row, t_token *token)
 	if (!is_valid_instr_row(instr_row, token))
 		print_error_and_exit();
 	token = token->next;
-	token = parse_arg_list(instr_row, token); // -> parse_args.c
+	token = parse_arg_list(instr_row, token);
 	return (token);
 }

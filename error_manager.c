@@ -1,6 +1,6 @@
 #include "asm.h"
 
-void	print_error_and_exit()
+void	print_error_and_exit(void)
 {
 	ft_putstr_fd("Some error detected !!!", 2);
 	exit(1);
